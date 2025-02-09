@@ -1,4 +1,58 @@
-# ProductApp
+
+## Overview
+
+This project is a Single Page Application (SPA) built with Angular and Angular material v18 as ui. 
+It includes essential functionalities such as user authentication, product management.
+ The backend is simulated using a fake API from "https://fakestoreapi.com".
+
+## Features
+
+1. ## Authentication
+
+A modern Login Page.
+
+Hardcoded credentials for authentication.
+
+Redirects authenticated users to the Home Page.
+
+### userName is : => mor_2314
+### password is : => 83r5^_
+
+2. ## Home Page
+
+A dashboard-style landing page.
+
+Provides navigation to Product Management and Invoice Creation sections.
+
+Intuitive and user-friendly layout.
+
+3. ## Product Management
+
+Create Product: Users can add new products by entering details such as title, description, and price.
+
+List Products: Displays a list of products fetched from the fake API.
+
+Edit/Delete Product: Supports editing and deletion of products.
+
+Technologies Used
+
+Framework: Angular
+
+
+Styling:  Bootstrap / Custom CSS (based on project needs)
+
+Fake API: "https://fakestoreapi.com/docs"
+
+
+Installation & Setup
+
+Prerequisites
+
+Ensure you have the following installed:
+
+Node.js (LTS version recommended)
+
+Angular CLI# ProductApp
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.6.
 
@@ -12,48 +66,14 @@ ng serve
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Code scaffolding
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-```bash
-ng generate component component-name
-```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
 
 This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
-## Running unit tests
+## Git Hup Repository
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Clone the repository: ---
 
-```bash
-ng test
-```
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
