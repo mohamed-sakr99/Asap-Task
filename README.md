@@ -74,6 +74,6 @@ This will compile your project and store the build artifacts in the `dist/` dire
 
 ## Git Hup Repository
 
-Clone the repository: ---
+Clone the repository: 'https://github.com/mohamed-sakr99/Asap-Task.git'
 
 
